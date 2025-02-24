@@ -5,8 +5,8 @@ const brandData: Brand[] = [
     id: 1,
     name: "Seasons Foods",
     href: "#",
-    image: "/images/brand/Seasons-foods.png",
-    imageLight: "/images/brand/Seasons-foods.png",
+    image: "/images/brand/Seasons-Foods.png",
+    imageLight: "/images/brand/Seasons-Foods.png",
   },
   {
     id: 2,
