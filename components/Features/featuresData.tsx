@@ -123,6 +123,14 @@ const featuresData: LanguageTechnology[] = [
   },
   {
     id: 16,
+    icon: "/images/lang-tech/flutter.png",
+    name: "Flutter",
+    type: 'Technology',
+    description:
+      "An open-source UI software development kit created by Google for building natively compiled applications.",
+  },
+  {
+    id: 17,
     icon: "/images/lang-tech/WordPress_blue_logo.svg.png",
     name: "WordPress",
     type: 'Language',
@@ -130,7 +138,7 @@ const featuresData: LanguageTechnology[] = [
       "A free and open-source content management system written in PHP and paired with a MySQL or MariaDB database.",
   },
   {
-    id: 17,
+    id: 18,
     icon: "/images/lang-tech/sql.png",
     name: "SQL",
     type: 'Technology',
@@ -138,7 +146,7 @@ const featuresData: LanguageTechnology[] = [
       "A domain-specific language used in programming and designed for managing data held in a relational database management system.",
   },
   {
-    id: 18,
+    id: 19,
     icon: "/images/lang-tech/MongoDB-Logo-500x313.png",
     name: "MongoDB",
     type: 'Technology',
@@ -146,7 +154,7 @@ const featuresData: LanguageTechnology[] = [
       "A database design approach that provides flexible schemas for the storage and retrieval of data beyond the traditional table structures found in relational databases.",
   },
   {
-    id: 19,
+    id: 20,
     icon: "/images/lang-tech/html.png",
     name: "HTML",
     type: 'Technology',
@@ -154,7 +162,7 @@ const featuresData: LanguageTechnology[] = [
       "The standard markup language for documents designed to be displayed in a web browser.",
   },
   {
-    id: 20,
+    id: 21,
     icon: "/images/lang-tech/css.png",
     name: "CSS",
     type: 'Technology',
@@ -162,7 +170,7 @@ const featuresData: LanguageTechnology[] = [
       "A style sheet language used for describing the presentation of a document written in a markup language like HTML.",
   },
   {
-    id: 21,
+    id: 22,
     icon: "/images/lang-tech/sass.svg",
     name: "Sass",
     type: 'Technology',

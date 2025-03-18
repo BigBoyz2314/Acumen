@@ -2,7 +2,6 @@
 import React from "react";
 import SingleBrand from "./SingleBrand";
 import brandData from "./brandData";
-import { motion } from "motion/react"; // Importing motion from motion/react
 import SectionHeader from "../Common/SectionHeader";
 
 const Brands = () => {
