@@ -11,7 +11,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="relative inline-block m-4 p-2 w-60 h-32"
+      className="relative inline-block m-2 sm:m-3 md:m-4 p-1 sm:p-2 w-[100px] sm:w-[120px] md:w-[150px] lg:w-[180px] h-[60px] sm:h-[80px] md:h-[100px] lg:h-[120px]"
     >
       <motion.div
         initial={{ opacity: 0, y: -20 }}

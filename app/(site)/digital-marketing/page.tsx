@@ -9,38 +9,26 @@ import Image from "next/image";
 import FunFact from "@/components/FunFact";
 
 export const metadata: Metadata = {
-  title: "Web Development - Acumen Technologies",
-  description: "Web Development - Acumen Technologies",
-  // other metadata
+  title: "Digital Marketing - Acumen Technologies",
+  description: "Digital Marketing Services - Acumen Technologies",
 };
 
-const CustomSoftDev = () => {
+const DigitalMarketing = () => {
   return (
     <>
       <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-35">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
-            <div className=" md:w-1/2">
-              {/* <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-                      The Acumen Technologies
-                    </h4> */}
-              <h1 className="mb-5 pr-5 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                Web {"   "}
-                <span className="relative me-2 inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                Development
+            <div className="md:w-1/2">
+              <h1 className="mb-5 pr-5 text-3xl font-bold text-black dark:text-white xl:text-hero">
+                Digital{"   "}
+                <span className="relative me-2 inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
+                  Marketing
                 </span>
               </h1>
-                <p>
-                We specialize in Web Development
-                services tailored to meet the unique needs of your business. Our
-                expert team leverages modern frameworks and technologies such as
-                Next.js, React, TypeScript, Node.js, PHP, and AWS to create
-                dynamic, responsive, and scalable websites. Whether you need a
-                sleek corporate site, an e-commerce platform, or a custom web
-                application, we ensure your online presence is robust, secure,
-                and optimized for performance. Partner with us to bring your
-                vision to life and stay ahead in the digital landscape.
-                </p>
+              <p>
+                We deliver comprehensive digital marketing solutions that drive growth and engagement for your business. Our data-driven approach combines SEO, social media marketing, content strategy, and paid advertising to create impactful campaigns that reach your target audience. From strategy development to execution and analytics, we help you build a strong online presence and achieve measurable results in the digital landscape.
+              </p>
             </div>
             <div className="animate_right z-1 md:w-1/2 lg:block">
               <div className="relative 2xl:-mr-7.5">
@@ -67,13 +55,13 @@ const CustomSoftDev = () => {
                 />
                 <div className="relative z-0 aspect-[700/444] w-full">
                   <Image
-                    className=" object-contain dark:hidden"
+                    className="object-contain dark:hidden"
                     src="/images/hero/hero.png"
                     alt="Hero"
                     fill
                   />
                   <Image
-                    className="hidden  object-contain dark:block"
+                    className="hidden object-contain dark:block"
                     src="/images/hero/hero.png"
                     alt="Hero"
                     fill
@@ -94,4 +82,4 @@ const CustomSoftDev = () => {
   );
 };
 
-export default CustomSoftDev;
+export default DigitalMarketing; 

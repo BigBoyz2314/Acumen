@@ -31,7 +31,7 @@ const CustomSoftDev = () => {
                 </span>
               </h1>
                 <p>
-                At Acumen Technologies, we provide comprehensive Software Support
+                We provide comprehensive Software Support
                 and Maintenance services to ensure your applications run smoothly
                 and efficiently. Our dedicated team specializes in troubleshooting,
                 performance optimization, and regular updates to keep your software

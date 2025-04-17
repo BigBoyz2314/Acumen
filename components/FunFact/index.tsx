@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "motion/react"
+import { FaUsers, FaProjectDiagram, FaBuilding } from "react-icons/fa";
 
 const FunFact = () => {
   return (
@@ -84,8 +85,11 @@ const FunFact = () => {
               viewport={{ once: true }}
               className="animate_top text-center"
             >
+              <div className="flex justify-center mb-4">
+                <FaBuilding className="text-5xl text-emerald-400" />
+              </div>
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                20+
+                100+
               </h3>
               <p className="text-lg lg:text-para2">Clients</p>
             </motion.div>
@@ -107,8 +111,11 @@ const FunFact = () => {
               viewport={{ once: true }}
               className="animate_top text-center"
             >
+              <div className="flex justify-center mb-4">
+                <FaUsers className="text-5xl text-emerald-400" />
+              </div>
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                200+
+                2,000+
               </h3>
               <p className="text-lg lg:text-para2">Users</p>
             </motion.div>
@@ -130,8 +137,11 @@ const FunFact = () => {
               viewport={{ once: true }}
               className="animate_top text-center"
             >
+              <div className="flex justify-center mb-4">
+                <FaProjectDiagram className="text-5xl text-emerald-400" />
+              </div>
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                25+
+                100+
               </h3>
               <p className="text-lg lg:text-para2">Projects</p>
             </motion.div>

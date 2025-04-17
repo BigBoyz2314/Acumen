@@ -31,7 +31,7 @@ const CustomSoftDev = () => {
                 </span>
               </h1>
                 <p>
-                At Acumen Technologies, we specialize in WordPress Development
+                We specialize in WordPress Development
                 services tailored to meet the unique needs of your business. Our
                 expert team leverages the power of WordPress along with modern
                 technologies such as PHP, JavaScript, and custom plugins to create

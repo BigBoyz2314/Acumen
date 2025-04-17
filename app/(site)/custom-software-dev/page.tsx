@@ -32,7 +32,7 @@ const CustomSoftDev = () => {
                 Development
               </h1>
               <p>
-                At Acumen Technologies, we offer custom software development
+                We offer custom software development
                 services designed to address the unique challenges and goals of
                 your business. Our team works closely with you to understand
                 your requirements and deliver tailored solutions that drive

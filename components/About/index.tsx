@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import Image from "next/image";
 
-const About = () => {
+const About1 = () => {
   return (
     <>
       {/* <!-- ===== About Start ===== --> */}
@@ -208,4 +208,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default About1;

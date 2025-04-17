@@ -31,7 +31,7 @@ const CustomSoftDev = () => {
                 & Machine Learning
               </h1>
               <p>
-                At Acumen Technologies, we excel in delivering cutting-edge AI
+                We excel in delivering cutting-edge AI
                 and Machine Learning solutions designed to transform your
                 business operations. Our expert team harnesses the power of
                 advanced algorithms, data analytics, and automation to create

@@ -32,7 +32,7 @@ const CustomSoftDev = () => {
                 Development
               </h1>
                 <p>
-                At Acumen Technologies, we specialize in Mobile App Development
+                We specialize in Mobile App Development
                 services designed to meet the unique needs of your business. Our
                 expert team utilizes cutting-edge technologies such as React Native,
                 Flutter, and native development to create dynamic, responsive, and
