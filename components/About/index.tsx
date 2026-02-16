@@ -9,7 +9,8 @@ const About1 = () => {
       {/* <!-- ===== About Start ===== --> */}
       <section className="overflow-hidden py-20 lg:py-25 xl:py-30">
         <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
-          <div className="flex flex-col items-center gap-8 lg:flex-row lg:gap-32.5">
+          <div className="rounded-3xl border border-stroke bg-white/90 p-8 shadow-solid-8 backdrop-blur-sm dark:border-strokedark dark:bg-blacksection/90 lg:p-12">
+            <div className="flex flex-col items-center gap-8 lg:flex-row lg:gap-32.5">
             <motion.div
               variants={{
                 hidden: {
@@ -105,6 +106,7 @@ const About1 = () => {
                 </div>
               </div>
             </motion.div>
+            </div>
           </div>
         </div>
       </section>
@@ -113,7 +115,8 @@ const About1 = () => {
       {/* <!-- ===== About Two Start ===== --> */}
       <section>
         <div className="mx-auto max-w-c-1235 overflow-hidden px-4 md:px-8 2xl:px-0">
-          <div className="flex flex-col items-center gap-8 lg:flex-row lg:gap-32.5">
+          <div className="rounded-3xl border border-stroke bg-white/90 p-8 shadow-solid-8 backdrop-blur-sm dark:border-strokedark dark:bg-blacksection/90 lg:p-12">
+            <div className="flex flex-col items-center gap-8 lg:flex-row lg:gap-32.5">
             <motion.div
               variants={{
                 hidden: {
@@ -200,6 +203,7 @@ const About1 = () => {
                 fill
               />
             </motion.div>
+            </div>
           </div>
         </div>
       </section>

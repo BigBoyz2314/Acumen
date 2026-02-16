@@ -135,6 +135,13 @@ const brandData: Brand[] = [
     image: "/images/brand/Beta Pipes.png",
     imageLight: "/images/brand/Beta Pipes.png",
   },
+  {
+    id: 20,
+    name: "Chawla Green Motors",
+    href: "https://chawlagreenmotors.com/",
+    image: "/images/brand/chawlagreenmotors.png",
+    imageLight: "/images/brand/chawlagreenmotors.png",
+  },
 ];
 
 export default brandData;

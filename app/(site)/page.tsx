@@ -8,8 +8,9 @@ import FunFact from "@/components/FunFact";
 import Integration from "@/components/Integration";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
-import WhatWeDo from "@/components/WhatWeDo";
+import Products from "@/components/Products";
 import Testimonial from "@/components/Testimonial";
+import CTA from "@/components/CTA";
 export const metadata: Metadata = {
   title: "Acumen Technologies",
   description: "This is Home for Acumen Technologies",
@@ -19,11 +20,12 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <WhatWeDo />
+      <Products />
       <Brands />
       <FunFact />
-      <Feature />
+      <CTA />
       <About1 />
+      <Feature />
       <FeaturesTab />
       <Integration />
       <FAQ />

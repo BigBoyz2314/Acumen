@@ -29,6 +29,7 @@ const FeaturesTab = () => {
             />
           </div>
 
+          <div className="rounded-3xl border border-stroke bg-white/90 p-6 shadow-solid-8 backdrop-blur-sm dark:border-strokedark dark:bg-blacksection/90 lg:p-10">
           {/* <!-- Tab Menues Start --> */}
           <motion.div
             variants={{
@@ -139,6 +140,7 @@ const FeaturesTab = () => {
             ))}
           </motion.div>
           {/* <!-- Tab Content End --> */}
+          </div>
         </div>
       </section>
       {/* <!-- ===== Features Tab End ===== --> */}

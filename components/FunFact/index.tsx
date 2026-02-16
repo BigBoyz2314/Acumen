@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "motion/react"
-import { FaUsers, FaProjectDiagram, FaBuilding } from "react-icons/fa";
+import { FaCloud, FaShieldAlt, FaStoreAlt } from "react-icons/fa";
 
 const FunFact = () => {
   return (
@@ -57,12 +57,11 @@ const FunFact = () => {
             className="animate_top mx-auto mb-6 px-4 text-center md:w-4/5 md:px-0 lg:mb- lg:w-2/3 xl:w-1/2"
           >
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-              Trusted by Global Companies.
+              Built for cloud-first operations.
             </h2>
             <p className="mx-auto lg:w-11/12">
-              Acumen Technologies is a leading provider of innovative tech solutions. 
-              We specialize in delivering high-quality software and services to clients 
-              worldwide, ensuring their success in a rapidly evolving digital landscape.
+              A modern platform that connects POS, ordering, delivery workflows, loyalty,
+              and analytics—so teams can move faster with fewer tools and cleaner data.
             </p>
           </motion.div>
 
@@ -86,12 +85,12 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <div className="flex justify-center mb-4">
-                <FaBuilding className="text-5xl text-emerald-400" />
+                <FaCloud className="text-5xl text-emerald-400" />
               </div>
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                100+
+                Cloud
               </h3>
-              <p className="text-lg lg:text-para2">Clients</p>
+              <p className="text-lg lg:text-para2">Always up to date</p>
             </motion.div>
             <motion.div
               variants={{
@@ -112,12 +111,12 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <div className="flex justify-center mb-4">
-                <FaUsers className="text-5xl text-emerald-400" />
+                <FaStoreAlt className="text-5xl text-emerald-400" />
               </div>
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                2,000+
+                Multi-store
               </h3>
-              <p className="text-lg lg:text-para2">Users</p>
+              <p className="text-lg lg:text-para2">Scale with confidence</p>
             </motion.div>
             <motion.div
               variants={{
@@ -138,12 +137,12 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <div className="flex justify-center mb-4">
-                <FaProjectDiagram className="text-5xl text-emerald-400" />
+                <FaShieldAlt className="text-5xl text-emerald-400" />
               </div>
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                100+
+                Secure
               </h3>
-              <p className="text-lg lg:text-para2">Projects</p>
+              <p className="text-lg lg:text-para2">Role-based access</p>
             </motion.div>
           </div>
         </div>

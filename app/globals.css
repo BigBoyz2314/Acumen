@@ -26,7 +26,13 @@ html {
 @layer base {
   body {
     @apply relative z-1 font-inter text-regular font-normal text-waterloo dark:text-manatee;
+    background: radial-gradient(circle at top left, #e0f2ff 0, #f4f7ff 35%, #ffffff 70%);
   }
+}
+
+/* Override background in dark mode for better contrast */
+.dark body {
+  background: #020617;
 }
 
 @layer components {

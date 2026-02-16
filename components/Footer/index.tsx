@@ -5,7 +5,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection">
+      <footer className="border-t border-stroke bg-gradient-to-t from-[#E5F0FF] via-[#F5F7FF] to-white dark:border-strokedark dark:bg-gradient-to-t dark:from-blacksection dark:via-blackho dark:to-black">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           {/* <!-- Footer Top --> */}
           <div className="py-10 lg:py-15">

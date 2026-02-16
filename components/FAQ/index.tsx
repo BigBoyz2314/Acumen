@@ -29,6 +29,7 @@ const FAQ = () => {
             className="hidden dark:block"
           />
         </div>
+        <div className="rounded-3xl border border-stroke bg-white/90 p-6 shadow-solid-8 backdrop-blur-sm dark:border-strokedark dark:bg-blacksection/90 lg:p-10">
         <div className="flex flex-wrap gap-8 md:flex-nowrap md:items-center xl:gap-32.5">
           <motion.div
             variants={{
@@ -102,6 +103,7 @@ const FAQ = () => {
               ))}
             </div>
           </motion.div>
+        </div>
         </div>
       </div>
     </section>

@@ -27,46 +27,25 @@ const UIUXDesign = () => {
                 </span>
               </h1>
               <p>
-                We specialize in creating exceptional user experiences through innovative UI/UX design. Our expert team combines creativity with user-centered design principles to craft intuitive, engaging, and accessible digital interfaces. From wireframing and prototyping to user research and interaction design, we ensure your digital products not only look stunning but also deliver seamless user experiences that drive engagement and satisfaction.
+                We specialize in creating exceptional user experiences through
+                innovative UI/UX design. Our expert team combines creativity
+                with user-centered design principles to craft intuitive,
+                engaging, and accessible digital interfaces. From wireframing
+                and prototyping to user research and interaction design, we
+                ensure your digital products not only look stunning but also
+                deliver seamless user experiences that drive engagement and
+                satisfaction.
               </p>
             </div>
             <div className="animate_right z-1 md:w-1/2 lg:block">
               <div className="relative 2xl:-mr-7.5">
                 <Image
-                  src="/images/shape/shape-01.png"
-                  alt="shape"
-                  width={46}
-                  height={246}
-                  className="absolute left-30 top-0"
+                  className="object-contain dark:hidden"
+                  src="/images/hero/UiUx.png"
+                  alt="UI/UX Design"
+                  width={400}
+                  height={400}
                 />
-                <Image
-                  src="/images/shape/shape-02.svg"
-                  alt="shape"
-                  width={36.9}
-                  height={36.7}
-                  className="absolute bottom-0 right-12 z-10"
-                />
-                <Image
-                  src="/images/shape/shape-03.svg"
-                  alt="shape"
-                  width={21.64}
-                  height={21.66}
-                  className="absolute bottom-0 right-5 z-1"
-                />
-                <div className="relative z-0 aspect-[700/444] w-full">
-                  <Image
-                    className="object-contain dark:hidden"
-                    src="/images/hero/hero.png"
-                    alt="Hero"
-                    fill
-                  />
-                  <Image
-                    className="hidden object-contain dark:block"
-                    src="/images/hero/hero.png"
-                    alt="Hero"
-                    fill
-                  />
-                </div>
               </div>
             </div>
           </div>
@@ -82,4 +61,4 @@ const UIUXDesign = () => {
   );
 };
 
-export default UIUXDesign; 
+export default UIUXDesign;

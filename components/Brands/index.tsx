@@ -33,9 +33,9 @@ const Brands = () => {
     <section className="border border-x-0 border-y-stroke bg-alabaster py-11 text-center dark:border-y-strokedark dark:bg-black" id="clients">
       <SectionHeader
         headerInfo={{
-          title: "CLIENTS",
-          subtitle: "Our Clients",
-          description: `At Acumen Technologies, we pride ourselves on our diverse and esteemed clientele. Our clients come from various industries, and we are committed to providing them with the best possible solutions to meet their unique needs.`,
+          title: "TRUSTED BY",
+          subtitle: "Trusted by teams building modern operations",
+          description: `We partner with ambitious businesses to build reliable, scalable systems—across web, mobile, cloud, and in-store operations.`,
         }}
       />
       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">

@@ -3,8 +3,8 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Support - Acumen Technologies",
-  description: "This is Support for Acumen Technologies",
+  title: "Contact Us - Acumen Technologies",
+  description: "This is Contact for Acumen Technologies",
   // other metadata
 };
 

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "motion/react"
 
 const CTA = () => {
@@ -29,12 +30,11 @@ const CTA = () => {
               className="animate_left md:w-[70%] lg:w-1/2"
             >
               <h2 className="mb-4 w-11/12 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle4">
-                Join With Us Today & Increase Your Productivity
+                Ready to modernize your operations with a cloud POS?
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                convallis tortor eros. Donec vitae tortor lacus. Phasellus
-                aliquam ante in maximus.
+                See how our platform connects POS, online ordering, delivery workflows,
+                loyalty, and analytics—built to scale for multi-branch businesses.
               </p>
             </motion.div>
             <motion.div
@@ -63,11 +63,11 @@ const CTA = () => {
                   alt="Saly"
                   className="hidden xl:block"
                 />
-                <a
-                  href="/auth/signup"
+                <Link
+                  href="/contact?intent=demo"
                   className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-black"
                 >
-                  Sign up free
+                  Book a demo
                   <Image
                     width={20}
                     height={20}
@@ -82,7 +82,7 @@ const CTA = () => {
                     alt="Arrow"
                     className="hidden dark:block"
                   />
-                </a>
+                </Link>
               </div>
             </motion.div>
           </div>

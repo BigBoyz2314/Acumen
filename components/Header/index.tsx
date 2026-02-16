@@ -25,7 +25,8 @@ const Header = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleStickyMenu);
-  });
+    return () => window.removeEventListener("scroll", handleStickyMenu);
+  }, []);
 
   return (
     <header
@@ -37,7 +38,7 @@ const Header = () => {
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
-          <a href="/">
+          <Link href="/" aria-label="Home">
             <Image
               src="/images/logo/logo-dark.png"
               alt="logo"
@@ -52,7 +53,7 @@ const Header = () => {
               height={30}
               className="w-full dark:hidden pe-6"
             />
-          </a>
+          </Link>
 
           {/* <!-- Hamburger Toggle BTN --> */}
           <button
@@ -156,12 +157,12 @@ const Header = () => {
           </nav>
 
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
-            {/* <ThemeToggler /> */}
+            <ThemeToggler />
             <Link
-              href="/contact"
+              href="/contact?intent=demo"
               className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
             >
-              Contact Us
+              Book a Demo
             </Link>
           </div>
         </div>
