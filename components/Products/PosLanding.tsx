@@ -31,27 +31,29 @@ function FeatureBlock({
   cards: { title: string; body: string; icon: React.ReactNode }[];
 }) {
   return (
-    <section className="py-16 lg:py-20">
+    <section className="py-8">
       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-        <h2 className="mb-4 text-2xl font-bold text-black dark:text-white md:text-3xl">
-          {title}
-        </h2>
-        <p className="mb-10 max-w-3xl text-waterloo dark:text-manatee">{body}</p>
-        <div className="grid gap-6 sm:grid-cols-2">
-          {cards.map((card) => (
-            <div
-              key={card.title}
-              className="rounded-2xl border border-stroke bg-white p-6 shadow-solid-5 dark:border-strokedark dark:bg-blacksection dark:shadow-solid-6"
-            >
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10 text-primary">
-                {card.icon}
+        <div className="rounded-3xl border border-stroke bg-white p-7 shadow-solid-8 dark:border-strokedark dark:bg-blacksection dark:shadow-solid-6 md:p-10">
+          <h2 className="mb-4 text-2xl font-bold text-[#0F3FD0] dark:text-[#60A5FA] md:text-3xl">
+            {title}
+          </h2>
+          <p className="mb-10 max-w-3xl text-waterloo dark:text-manatee">{body}</p>
+          <div className="grid gap-6 sm:grid-cols-2">
+            {cards.map((card) => (
+              <div
+                key={card.title}
+                className="rounded-2xl border border-stroke bg-white p-6 shadow-solid-5 dark:border-strokedark dark:bg-blacksection dark:shadow-solid-6"
+              >
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10 text-primary">
+                  {card.icon}
+                </div>
+                <h3 className="mb-2 text-lg font-semibold text-black dark:text-white">
+                  {card.title}
+                </h3>
+                <p className="text-waterloo dark:text-manatee">{card.body}</p>
               </div>
-              <h3 className="mb-2 text-lg font-semibold text-black dark:text-white">
-                {card.title}
-              </h3>
-              <p className="text-waterloo dark:text-manatee">{card.body}</p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </section>
@@ -64,9 +66,9 @@ function DifferenceBlock({
   items: { title: string; body: string; icon: React.ReactNode }[];
 }) {
   return (
-    <section className="py-16 lg:py-20">
+    <section className="py-8">
       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-        <h2 className="mb-10 text-center text-2xl font-bold text-black dark:text-white md:text-3xl">
+        <h2 className="mb-10 text-center text-2xl font-bold text-[#0F3FD0] dark:text-[#60A5FA] md:text-3xl">
           Tired of outdated POS systems? Discover the Acumen POS difference
         </h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -98,9 +100,9 @@ function AutomationGrid({
   items: { title: string; body: string; icon: React.ReactNode }[];
 }) {
   return (
-    <section className="py-16 lg:py-20">
+    <section className="py-8">
       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-        <h2 className="mb-10 text-center text-2xl font-bold text-black dark:text-white md:text-3xl">
+        <h2 className="mb-10 text-center text-2xl font-bold text-[#0F3FD0] dark:text-[#60A5FA] md:text-3xl">
           Automate your operations under one platform
         </h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -126,44 +128,57 @@ function AutomationGrid({
 
 export default function PosLanding() {
   return (
-    <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-      {/* Hero - Blink style */}
-      <section className="pb-16 pt-8 lg:pb-20 lg:pt-12">
-        <div className="flex flex-col gap-10 lg:flex-row lg:items-center lg:gap-16 xl:gap-24">
-          <div className="lg:w-1/2">
-            <h1 className="mb-6 text-3xl font-bold leading-tight text-black dark:text-white md:text-4xl xl:text-hero">
-              The all-in-one cloud POS: manage everything, everywhere
-            </h1>
-            <p className="mb-8 text-lg text-waterloo dark:text-manatee">
-              Ditch the complexity, embrace simplicity. Our cloud POS makes managing your
-              business easy. Multi-channel orders, staff tools, and advanced analytics—all
-              in one place, accessible from anywhere.
-            </p>
-            <Link
-              href="/contact?intent=demo"
-              className="inline-flex rounded-full bg-primary px-7 py-3 font-medium text-white transition hover:bg-primaryho"
-            >
-              Book a demo
-            </Link>
-          </div>
-          <div className="lg:w-1/2">
-            <ProductMonitorFrame
-              src="/images/Pos-Image.png"
-              alt="Cloud POS - Product search and shopping cart"
-              size="lg"
-            />
+    <>
+      {/* Hero - match home hero design */}
+      <section className="overflow-hidden pb-12 pt-30">
+        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+          <div className="rounded-3xl bg-white px-6 py-10 shadow-solid-8 dark:bg-gradient-to-br dark:from-blacksection dark:via-[#111827] dark:to-blackho md:px-10 lg:flex lg:flex-row lg:items-center">
+            <div className="w-3/4 text-center lg:w-1/2 lg:text-left">
+              <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-primary/5 px-3 py-1 text-xs font-medium text-[#1D4ED8] dark:text-[#60A5FA]">
+                <span className="relative flex h-2.5 w-2.5">
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#22C55E]/60" />
+                  <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-[#22C55E]" />
+                </span>
+                <span>Modern cloud POS platform</span>
+              </div>
+              <h1 className="mb-5 pr-5 text-5xl font-bold leading-tight text-[#0F3FD0] dark:text-[#60A5FA] md:text-5xl xl:text-hero">
+                The all-in-one cloud POS: manage everything, everywhere
+              </h1>
+              <p className="mb-8 w-3/4 mx-auto text-waterloo dark:text-manatee lg:mx-0 lg:w-full">
+                Ditch the complexity, embrace simplicity. Our cloud POS makes managing your
+                business easy. Multi-channel orders, staff tools, and advanced analytics—all
+                in one place, accessible from anywhere.
+              </p>
+
+              <div className="flex flex-row items-center mt-4 gap-4 align-center justify-center lg:justify-start">
+                <Link
+                  href="/contact?intent=demo"
+                  className="rounded-full bg-primary px-7.5 py-3 font-medium text-white duration-300 ease-in-out hover:bg-primaryho"
+                >
+                  Book a demo
+                </Link>
+                <Link
+                  href="/pricing"
+                  className="rounded-full border border-stroke bg-white px-7.5 py-3 font-medium text-black duration-300 ease-in-out hover:border-primary dark:border-strokedark dark:bg-blacksection dark:text-white"
+                >
+                  View pricing
+                </Link>
+              </div>
+            </div>
+            <div className="mt-8 animate_right z-1 w-full lg:mt-0 lg:block lg:w-1/2">
+              <div className="relative mt-8">
+                <ProductMonitorFrame
+                  src="/images/Pos-Image.png"
+                  alt="Cloud POS - Product search and shopping cart"
+                  size="lg"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Proof line */}
-      <section className="py-8">
-        <p className="text-center text-xl font-semibold text-black dark:text-white md:text-2xl">
-          Acumen POS handles high-volume operations for our partners
-        </p>
-      </section>
-
-      {/* Feature sections with two cards each */}
+      {/* Rest of POS landing content */}
       <FeatureBlock
         title="Effortless inventory & recipe management"
         body="Streamline operations by optimizing inventory levels, controlling costs, and ensuring consistent quality. Consolidate inventory and standardize product recipes across all channels."
@@ -342,6 +357,6 @@ export default function PosLanding() {
           </Link>
         </div>
       </section>
-    </div>
+    </>
   );
 }

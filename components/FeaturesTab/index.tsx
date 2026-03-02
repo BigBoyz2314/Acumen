@@ -12,7 +12,7 @@ const FeaturesTab = () => {
   return (
     <>
       {/* <!-- ===== Features Tab Start ===== --> */}
-      <section id="features" className="relative pb-10 pt-18.5 lg:pb-12">
+      <section id="features" className="relative py-8">
         <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="absolute -top-16 -z-1 mx-auto h-[350px] w-[90%]">
             <Image

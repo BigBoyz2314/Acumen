@@ -20,8 +20,8 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Products />
       <Brands />
+      <Products />
       <FunFact />
       <CTA />
       <About1 />

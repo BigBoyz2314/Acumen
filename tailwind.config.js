@@ -47,7 +47,7 @@ module.exports = {
         para2: ["22px", "35px"],
         itemtitle: ["26px", "32px"],
         itemtitle2: ["24px", "32px"],
-        hero: ["44px", "58px"],
+        hero: ["52px", "58px"],
         sectiontitle3: ["44px", "55px"],
         sectiontitle2: ["40px", "52px"],
         sectiontitle4: ["34px", "48px"],

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function PosRmsPage() {
   return (
-    <div className="pb-20 pt-40">
+    <div>
       <PosLanding />
     </div>
   );
