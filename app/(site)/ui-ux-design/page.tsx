@@ -20,7 +20,7 @@ const UIUXDesign = () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className="md:w-1/2">
-              <h1 className="mb-5 pr-5 text-3xl font-bold text-black dark:text-white xl:text-hero">
+              <h1 className="mb-5 pr-5 text-3xl font-bold text-[#0F3FD0] dark:text-[#60A5FA] xl:text-hero">
                 UI/UX{"   "}
                 <span className="relative me-2 inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
                   Design

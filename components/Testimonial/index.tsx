@@ -15,7 +15,7 @@ const Testimonial = () => {
   return (
     <>
       <section>
-        <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
+        <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0 py-8">
           {/* <!-- Section Title Start --> */}
           <div className="animate_top mx-auto text-center">
             <SectionHeader
@@ -45,10 +45,10 @@ const Testimonial = () => {
           whileInView="visible"
           transition={{ duration: 1, delay: 0.1 }}
           viewport={{ once: true }}
-          className="animate_top mx-auto mt-15 max-w-c-1235 px-4 md:px-8 xl:mt-20 xl:px-0"
+          className="animate_top mx-auto mt-8 max-w-c-1235 px-4 md:px-8 xl:px-0"
         >
           {/* <!-- Slider main container --> */}
-          <div className="swiper testimonial-01 mb-20 pb-22.5">
+          <div className="swiper testimonial-01 mb-8 pb-22.5">
             {/* <!-- Additional required wrapper --> */}
             <Swiper
               spaceBetween={50}

@@ -6,14 +6,13 @@ import { productsData } from "./productsData";
 
 const Products = () => {
   return (
-    <section className="py-16 lg:py-20 bg-gradient-to-b from-[#F3F7FF] via-white to-[#F9F5FF] dark:bg-gradient-to-b dark:from-blacksection dark:via-[#050816] dark:to-blackho" id="products">
+    <section className="py-16 lg:py-16 bg-gradient-to-b from-[#F3F7FF] via-white to-[#F9F5FF] dark:bg-gradient-to-b dark:from-blacksection dark:via-[#050816] dark:to-blackho" id="products">
       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
         <SectionHeader
           headerInfo={{
             title: "PRODUCTS",
             subtitle: "Grow faster, manage smarter with our cloud platform",
-            description:
-              "From POS and in-store operations to online ordering, delivery workflows, loyalty, and analytics—everything is connected in one cloud-based system.",
+            description: "",
           }}
         />
 
@@ -35,7 +34,7 @@ const Products = () => {
                 {p.title}
               </h3>
               <p className="mb-6">{p.description}</p>
-              <span className="inline-flex items-center gap-2 font-medium text-primary">
+              <span className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2 text-sm font-medium text-white transition group-hover:bg-primaryho">
                 Learn more
                 <svg
                   width="14"

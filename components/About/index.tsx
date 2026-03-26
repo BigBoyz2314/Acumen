@@ -7,7 +7,7 @@ const About1 = () => {
   return (
     <>
       {/* <!-- ===== About Start ===== --> */}
-      <section className="overflow-hidden py-20 lg:py-25 xl:py-30">
+      <section className="overflow-hidden py-8">
         <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
           <div className="rounded-3xl border border-stroke bg-white/90 p-8 shadow-solid-8 backdrop-blur-sm dark:border-strokedark dark:bg-blacksection/90 lg:p-12">
             <div className="flex flex-col items-center gap-8 lg:flex-row lg:gap-32.5">
@@ -66,7 +66,7 @@ const About1 = () => {
                 </span>{" "}
                 Custom Software Services
               </span>
-              <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
+              <h2 className="relative mb-6 text-3xl font-bold text-[#0F3FD0] dark:text-[#60A5FA] xl:text-hero">
                 Tailored Solutions for Your {" "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
                   Business Needs
@@ -114,7 +114,7 @@ const About1 = () => {
 
       {/* <!-- ===== About Two Start ===== --> */}
       <section>
-        <div className="mx-auto max-w-c-1235 overflow-hidden px-4 md:px-8 2xl:px-0">
+        <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
           <div className="rounded-3xl border border-stroke bg-white/90 p-8 shadow-solid-8 backdrop-blur-sm dark:border-strokedark dark:bg-blacksection/90 lg:p-12">
             <div className="flex flex-col items-center gap-8 lg:flex-row lg:gap-32.5">
             <motion.div
@@ -138,7 +138,7 @@ const About1 = () => {
               <h4 className="font-medium uppercase text-black dark:text-white">
                 Launch Your Software Fast
               </h4>
-              <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
+              <h2 className="relative mb-6 text-3xl font-bold text-[#0F3FD0] dark:text-[#60A5FA] xl:text-hero">
                 Our Dedicated {"   "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
                   Team

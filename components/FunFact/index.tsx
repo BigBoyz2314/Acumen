@@ -56,7 +56,7 @@ const FunFact = () => {
             viewport={{ once: true }}
             className="animate_top mx-auto mb-6 px-4 text-center md:w-4/5 md:px-0 lg:mb- lg:w-2/3 xl:w-1/2"
           >
-            <h2 className="mb-4 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
+            <h2 className="mb-4 text-3xl font-bold text-[#0F3FD0] dark:text-[#60A5FA] xl:text-sectiontitle3">
               Built for cloud-first operations.
             </h2>
             <p className="mx-auto lg:w-11/12">
@@ -87,7 +87,7 @@ const FunFact = () => {
               <div className="flex justify-center mb-4">
                 <FaCloud className="text-5xl text-emerald-400" />
               </div>
-              <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
+              <h3 className="mb-2.5 text-3xl font-bold text-[#0F3FD0] dark:text-[#60A5FA] xl:text-sectiontitle3">
                 Cloud
               </h3>
               <p className="text-lg lg:text-para2">Always up to date</p>
@@ -113,7 +113,7 @@ const FunFact = () => {
               <div className="flex justify-center mb-4">
                 <FaStoreAlt className="text-5xl text-emerald-400" />
               </div>
-              <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
+              <h3 className="mb-2.5 text-3xl font-bold text-[#0F3FD0] dark:text-[#60A5FA] xl:text-sectiontitle3">
                 Multi-store
               </h3>
               <p className="text-lg lg:text-para2">Scale with confidence</p>
@@ -139,7 +139,7 @@ const FunFact = () => {
               <div className="flex justify-center mb-4">
                 <FaShieldAlt className="text-5xl text-emerald-400" />
               </div>
-              <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
+              <h3 className="mb-2.5 text-3xl font-bold text-[#0F3FD0] dark:text-[#60A5FA] xl:text-sectiontitle3">
                 Secure
               </h3>
               <p className="text-lg lg:text-para2">Role-based access</p>
