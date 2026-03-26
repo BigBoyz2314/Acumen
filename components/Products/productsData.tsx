@@ -23,7 +23,7 @@ export const productsData: ProductCard[] = [
     icon: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 7.5C4 6.11929 5.11929 5 6.5 5H17.5C18.8807 5 20 6.11929 20 7.5V16.5C20 17.8807 18.8807 19 17.5 19H6.5C5.11929 19 4 17.8807 4 16.5V7.5Z" stroke="currentColor" stroke-width="1.5"/><path d="M8 22H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M9 8.5H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M9 12H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>`,
   },
   {
-    title: "Employee Tracking System",
+    title: "AREM Employee Tracking",
     description:
       "Track field employees in real time as they visit customers for order taking, sales, and meetings, with location-aware tasks.",
     href: "/products/fleet-management",

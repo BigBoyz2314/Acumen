@@ -20,6 +20,7 @@ import {
   FiPrinter,
 } from "react-icons/fi";
 import ProductMonitorFrame from "./ProductMonitorFrame";
+import InteractivePosDemo from "../InteractivePosDemo";
 
 function FeatureBlock({
   title,
@@ -178,6 +179,8 @@ export default function PosLanding() {
         </div>
       </section>
 
+      <InteractivePosDemo />
+
       {/* Rest of POS landing content */}
       <FeatureBlock
         title="Effortless inventory & recipe management"
@@ -312,7 +315,7 @@ export default function PosLanding() {
       />
 
       {/* Add Direct Inventory + Branch Devices */}
-      <section className="grid gap-8 py-16 sm:grid-cols-2">
+      <section className="grid gap-8 py-16 sm:grid-cols-2 mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
         <div className="rounded-2xl border border-stroke bg-white p-6 shadow-solid-5 dark:border-strokedark dark:bg-blacksection dark:shadow-solid-6">
           <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10 text-primary">
             <FiPackage className="h-5 w-5" />
@@ -340,7 +343,7 @@ export default function PosLanding() {
       </section>
 
       {/* Final CTA */}
-      <section className="pb-20">
+      <section className="pb-20 mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
         <div className="rounded-3xl bg-gradient-to-br from-[#E0F2FF] via-white to-[#F5E9FF] p-8 text-center shadow-solid-8 dark:from-blacksection dark:via-[#111827] dark:to-blackho lg:p-12">
           <h2 className="mb-4 text-2xl font-semibold text-black dark:text-white">
             Ready to transform your business?
